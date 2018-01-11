@@ -1,1 +1,23 @@
 when would you want to create a remote repository rather than keeping all your work local?
+you can straightly operate on github then you can use 'git pull origin master' to update the local
+
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+  If github automatically got updated with your local version after every single commit,but actually you might end up making things public before they are fully ready,since new features often require multiple commits
+  Fill in your answer here
+
+Describe the differences between forks, clones, and branches.  When would you use one instead of another?
+Forks only can be used on github,we can use it to make copy of somebody else's repository on the github services without pulling down the code to you local machine first.
+Clone can be used on both local and remote,it can automatic set up a remote pointing to the repository you cloned from.
+Branch only used on local,they happen on a single repository 
+
+ What is the benefit of having a copy of the last known state of the remote stored locally?
+ In the case like this,where there are potentially conflicting changes,using git fetch to update the local copy of the remote branch is nice .Because you can use git log and git diff what changes were introduced both on the local and remote repositories.
+ 
+
+ How would you collaborate without using Git or GitHub?  What would be easier,and what would be harder?
+ I would collaborate with my mate through the email.This is very slow and update to later
+ 
+
