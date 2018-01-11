@@ -20,4 +20,8 @@ Branch only used on local,they happen on a single repository
  How would you collaborate without using Git or GitHub?  What would be easier,and what would be harder?
  I would collaborate with my mate through the email.This is very slow and update to later
  
+ When would you want to make changes in a separate branch rather than directly in
+master?  What benefits does each approach have?
+I often use separate branch when i want pull request and hope other can find out my change.
+
 
